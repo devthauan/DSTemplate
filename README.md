@@ -14,7 +14,7 @@ After the installation, but before the initialization of the project, you might 
 4. `USER_GROUP_ID` Your user group id collected from the command ```id``` on the bash terminal.  (default = 0)
 > **Note:** You don't need to fill the `USER_ID` and `USER_GROUP_ID` at the creation, you can later update these values inside the path `'repo_name/env/.env'`. (`repo_name` is the name you chose for the folder).
 
-Once you have gathered all the necessary information, you will execute the command ```cookiecutter DSTemplate ```. This action will initiate the creation of the project, prompting the user to either provide the requested information or press Enter to accept the default values.
+Once you have gathered all the necessary information, you will execute the command ```cookiecutter https://github.com/devthauan/DSTemplate ```. This action will initiate the creation of the project, prompting the user to either provide the requested information or press Enter to accept the default values.
 
 ## Folder organization
 
@@ -22,7 +22,7 @@ Once you have gathered all the necessary information, you will execute the comma
 project
 └───data
     │   data.json
-└───documentation
+└───docs
     │   procedure.md
 └───env
     │   .dockerignote
