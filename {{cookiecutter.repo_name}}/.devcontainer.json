@@ -1,0 +1,16 @@
+{
+    "name": "{{cookiecutter.repo_name}}",
+    "dockerComposeFile": ["./env/docker-compose.yml"],
+    "service": "main",
+    "workspaceFolder": "/work",
+    "shutdownAction": "stopCompose",
+    "extensions" : [
+        "ms-vscode.test-adapter-converter", 
+        "hbenl.vscode-test-explorer",
+        "littlefoxteam.vscode-python-test-adapter",
+        "ms-toolsai.jupyter",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+    ],
+    "postCreateCommand" : "git config --global --add safe.directory /work"
+}

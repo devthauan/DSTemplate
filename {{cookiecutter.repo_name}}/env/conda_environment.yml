@@ -1,0 +1,35 @@
+name: ds_environment
+channels:
+  - defaults
+dependencies:
+  - python=3.10.14
+  - git=2.45.2
+  - pip=24.0
+  - pip:
+    - scikit-learn-intelex==2024.5.0
+    - azureml-core==1.56.0
+    - azureml-defaults==1.56.0.post1
+    - azureml-mlflow==1.56.0
+    - azureml-telemetry==1.56.0
+    - scikit-learn~=1.5.0
+    - joblib~=1.2.0
+    # azureml-automl-common-tools packages
+    - py-spy==0.3.12
+    - debugpy~=1.6.3
+    - ipykernel~=6.0
+    - tensorboard
+    - psutil~=5.8.0
+    - matplotlib~=3.5.0
+    - tqdm~=4.66.3
+    - py-cpuinfo==5.0.0
+    - torch-tb-profiler~=0.4.0
+    - pytest==8.3.2
+    - azure-ai-ml
+    - fastapi==0.112.0
+    - pandas==2.2.2
+    - pydantic==2.8.2
+    - Requests==2.32.3
+    - scikit_learn==1.5.
+    - seaborn==0.13.2
+    - pipreqs==0.4.13
+    - black==24.8.0
